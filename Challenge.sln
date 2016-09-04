@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{CFD11A98-DA72-47F9-A034-49055D58691F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F943CE94-B50B-47A3-9C44-ADD7C8928172} = {F943CE94-B50B-47A3-9C44-ADD7C8928172}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceLibrary", "WebServiceLibrary\WebServiceLibrary.csproj", "{EBAB7694-8C2C-404C-8646-5BEB0FA538D3}"
 EndProject
