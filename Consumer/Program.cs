@@ -9,6 +9,10 @@ namespace Consumer
     {
         static void Main(string[] args)
         {
+            Consumer.ServiceReference1.ServiceSoapClient webService = new Consumer.ServiceReference1.ServiceSoapClient();
+
+            Console.WriteLine("Fibonnacci(10) = " + webService.Fibonacci(10));
+            Console.ReadKey();
         }
     }
 }
